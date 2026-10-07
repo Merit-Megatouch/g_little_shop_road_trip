@@ -1,0 +1,13 @@
+# Symbols no library, runtime or megatouch-host provides (2026-10-07)
+# megatouch-host loads the game with RTLD_NOW, so each of these must be defined
+# (usually in src/host/loader_services.cpp) before the game will start.
+# symbol | needed by
+Settings::Init() | g_little_shop_road_trip.so
+Settings::Load() | g_little_shop_road_trip.so
+Settings::Cleanup() | g_little_shop_road_trip.so
+Settings::Restore(abstract_xml_record const*) | g_little_shop_road_trip.so
+Settings::SaveNow() | g_little_shop_road_trip.so
+Settings::Settings(char const*, unsigned int) | g_little_shop_road_trip.so
+Settings::~Settings() | g_little_shop_road_trip.so
+Settings::Key(unsigned int, bool) const | g_little_shop_road_trip.so
+typeinfo for Settings | g_little_shop_road_trip.so
