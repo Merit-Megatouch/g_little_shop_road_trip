@@ -8,6 +8,6 @@
 | Assets | /usr/local/ion_only/games/g_little_shop_road_trip |
 | Window size | 800x600 — from largest PNG (declared HIGH_RESOLUTION → 1024x768) |
 | Largest PNG | 800x600 (states/StateIntroBlitz/dialogue_bg.png) |
-| Engine libraries beyond the shared SDK | libgraphics_sprite.so libinput_sprite.so libsound_sprite.so  |
+| Engine libraries beyond the shared SDK | libgraphics_sprite.so libinput_sprite.so libmerit_threads.so libsettings.so libsound_sprite.so  |
 | Libraries not found in the cabinet | 0 (missing-libs.txt) |
-| Unresolved symbols | 9 unresolved symbol(s) (unresolved.txt) |
+| Unresolved symbols | 0 unresolved symbol(s) (unresolved.txt) |
